@@ -1,6 +1,6 @@
 #include "FileStateObserver.h"
 
-void FileStateObserver::Update()
+void FileStateObserver::Update(const QDateTime& lastModified, bool isExist, qint64 size)
 {
 
 }
