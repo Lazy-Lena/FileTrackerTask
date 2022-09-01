@@ -18,7 +18,7 @@ void FileStateObserver::Update(const QDateTime& lastModified, bool isExist, qint
     }
     else
     {
-        out << "File doesn't exists.";
+        out << "File doesn't exists." << Qt::endl;
     }
     // Записываем текущую дату модификации файла
     lastModified_ = lastModified;
